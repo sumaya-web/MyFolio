@@ -1,0 +1,378 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~common css start ~~~~~~~~~~~~~~~~~~~~~~*/
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  font-family: "Open Sans",
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.clr {
+  clear: both;
+}
+
+h2 {
+  color: #02918c;
+  font-size: 46px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #7e8287;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+p {
+  color: #7e8287;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 41px;
+}
+
+i {
+  color: #02918c;
+  font-size: 32px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ common css end ~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ Menu part css start ~~~~~~~~~~~~~~~~~~~~~~*/
+.menu_part {
+  height: 60px;
+  background: #02918c;
+}
+
+.logo {
+  width: 170px;
+  height: 60px;
+  float: left;
+}
+
+.main_menu {
+  width: 1000px;
+  height: 60px;
+  float: left;
+}
+
+.logo a {
+  padding-top: 18px;
+}
+
+.main_menu ul {
+  float: right;
+}
+
+.main_menu ul li {
+  float: left;
+}
+
+.main_menu ul li a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 60px;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~ Menu part css end ~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ Banner part css start ~~~~~~~~~~~~~~~~~~~~~~*/
+.banner_part {
+  padding: 210px 0;
+  background: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner_text {
+  text-align: center;
+  color: #fff;
+}
+
+.banner_text h3 {
+  font-size: 30px;
+}
+
+.banner_text h1 {
+  font-size: 68px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  margin: -6px 0 -12px;
+}
+
+.banner_text p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.banner_shape {
+  padding: 44px 0 52px;
+}
+
+.banner_text a {
+  color: #0b1016;
+  tab-size: 14px;
+  font-weight: 800;
+  padding: 18px 42px;
+  background: #cfc91d;
+  text-transform: uppercase;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ Banner part css end ~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ About part css start ~~~~~~~~~~~~~~~~~~~~~~*/
+.about_part {
+  padding: 98px 0;
+  text-align: center;
+}
+
+.about_head img {
+  padding: 12px 0 18px;
+}
+
+.about_head p {
+  padding: 0 140px;
+}
+
+.about_head p > span {
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.about_text {
+  width: 25%;
+  float: left;
+  border-right: 1px solid
+    #d9dbdb;
+  box-sizing: border-box;
+  margin-top: 70px;
+  padding: 36px 0 54px;
+}
+
+.about_inner .last_child {
+  border: 0;
+}
+
+.about_text h4 {
+  padding: 26px 0 24px;
+}
+
+.about_text p {
+  font-size: 11px;
+  line-height: 21px;
+  padding: 0px 60px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ About part css end ~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ Service part css start ~~~~~~~~~~~~~~~~~~~~*/
+.service_part {
+  padding: 74px 0 86px;
+  background: url("../images/service_banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.service_main {
+  width: 50%;
+  float: left;
+}
+
+.service_head p {
+  padding-right: 100px;
+}
+
+.service_head img {
+  padding: 23px 0 16px;
+}
+
+.service_text {
+  width: 50%;
+  float: left;
+  margin-top: 46px;
+}
+
+.service_text h4 {
+  padding: 14px 0;
+}
+
+.service_text p {
+  font-size: 11px;
+  line-height: 21px;
+  padding-right: 110px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~ Service part css end ~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ Work part css Start ~~~~~~~~~~~~~~~~~~~~~~*/
+.work_part {
+  padding: 110px 0 100px;
+  text-align: center;
+}
+
+.work_head img {
+  padding: 12px 0 14px;
+}
+
+.work_head p {
+  padding: 0 240px;
+  margin-bottom: 70px;
+}
+
+.work_img {
+  float: left;
+  width: 25%;
+  position: relative;
+}
+
+.work_img img {
+  width: 100%;
+}
+
+.work_img .overly {
+  background: rgba(
+    2,
+    145,
+    140,
+    0.85
+  );
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  bottom: 20px;
+  left: 30px;
+  padding: 58px 38px 50px;
+  box-sizing: border-box;
+  transform: scale(0);
+  transition: all linear 0.4s;
+  -moz-transition: all linear
+    0.4s;
+  -o-transition: all linear
+    0.4s;
+  -ms-transition: all linear
+    0.4s;
+  -webkit-transition: all
+    linear 0.4s;
+}
+
+.overly h4 {
+  color: #fff;
+}
+
+.overly p {
+  color: #fff;
+  font-size: 13px;
+  line-height: 21px;
+  padding: 10px 30px 0;
+}
+
+.work_img:hover .overly {
+  transform: scale(1);
+  transform-origin: center;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~ Work part css End ~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ Contact part css Start ~~~~~~~~~~~~~~~~~~~~*/
+.contact_part {
+  text-align: center;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~ Contact part css End ~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ Footer part css Start ~~~~~~~~~~~~~~~~~~~~*/
+.footer_part {
+  padding: 50px 0 70px;
+  background: #0b0b0b;
+}
+
+.footer_part form input {
+  width: 647px;
+  height: 50px;
+  text-align: center;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid
+    #898989;
+  color: #fff;
+  margin-bottom: 50px;
+  margin-left: 256px;
+  font-size: 16px;
+}
+
+.footer_part
+  form
+  input::placeholder {
+  color: #7e8287;
+  text-transform: uppercase;
+}
+
+.footer_part form label {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #7e8287;
+}
+
+.footer_part form textarea {
+  width: 917px;
+  height: 90px;
+  background: transparent;
+  color: #fff;
+  border: 0;
+  border-bottom: 1px solid
+    #898989;
+  border-top: 1px solid
+    #898989;
+  margin: 18px 0 67px 116px;
+  resize: none;
+}
+
+.footer_part form button {
+  display: block;
+  margin: 0 auto;
+  padding: 0 65px;
+  line-height: 47px;
+  background: #cfc91d;
+  border: 0;
+  color: #0b1016;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer_bottom {
+  background: #000;
+  text-align: center;
+  height: 70px;
+}
+
+.footer_bottom p {
+  color: #7e8287;
+  font-size: 12px;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~ Footer part css End ~~~~~~~~~~~~~~~~~~~~~~*/
